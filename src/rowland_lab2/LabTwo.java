@@ -29,8 +29,13 @@ public class LabTwo {
 			double roomArea = length * width;
 				
 			double roomVolume = length * width * height;
+			
+			double roomPerim = (length * 2) + (width * 2);
 		
 			System.out.printf("The area of the room is: %.2f square inches" , roomArea);
+			System.out.println();
+			
+			System.out.printf("The perimeter of the room is: %.2f inches" , roomPerim);
 			System.out.println();
 		
 			System.out.printf("The volume of the room is: %.2f square inches" , roomVolume);
